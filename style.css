@@ -12,6 +12,7 @@ header {
   padding: 20px;
   background-color: #475b63;
   display: grid;
+  color: #ffe3dc;
 }
 
 img {
@@ -21,13 +22,13 @@ img {
   border: solid 10px #fff;
 }
 
-h1 {
-  color: #ffe3dc;
-}
-
 .hello {
   font-family: "Josefin Sans", sans-serif;
-  font-size: 100px;
+  font-size: 6.5em;
+}
+
+header > p {
+  font-size: 1.5em;
 }
 
 .headertext {
