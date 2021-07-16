@@ -15,7 +15,7 @@ header {
   color: #ffe3dc;
 }
 
-.container {
+.container-head {
   display: grid;
   grid-template-columns: 2fr 1.5fr;
   grid-gap: 20px;
@@ -33,4 +33,19 @@ h1 {
   font-family: "Josefin Sans", sans-serif;
   font-size: 5em;
   text-align: center;
+}
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 20px;
+  justify-items: center;
+}
+
+.container-left-item {
+  order: 0;
+}
+
+.container-right-item {
+  order: 1;
 }
