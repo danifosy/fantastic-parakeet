@@ -6,12 +6,12 @@
 
 body {
   margin: 0px;
-  color: ;
 }
 
 header {
   padding: 20px;
   background-color: #475b63;
+  display: grid;
 }
 
 img {
@@ -22,5 +22,14 @@ img {
 }
 
 h1 {
+  color: #ffe3dc;
+}
+
+.hello {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 100px;
+}
+
+.headertext {
   color: #ffe3dc;
 }
