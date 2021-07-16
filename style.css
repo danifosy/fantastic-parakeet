@@ -7,6 +7,8 @@
 body {
   margin: 0px;
   background-color: #a2ad91;
+  list-style-type: none;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 header {
@@ -22,30 +24,42 @@ header {
 }
 
 img {
-  width: 300px;
-  height: 300px;
+  width: 270px;
+  height: 270px;
   border-radius: 100%;
   border: solid 10px #fff;
-  margin: 2em;
+  margin: 1em;
 }
 
 h1 {
-  font-family: "Josefin Sans", sans-serif;
-  font-size: 5em;
+  font-size: 4.5em;
   text-align: center;
 }
 .container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: repeat(2, 1fr);
-  grid-gap: 20px;
+  grid-gap: 10px;
   justify-items: center;
 }
 
 .container-left-item {
   order: 0;
+  color: #3a2d32;
+  font-size: 2.5em;
+  background-color: #ffe3dc;
+  padding: 0.5em;
 }
 
 .container-right-item {
   order: 1;
+  color: #3a2d32;
+  text-decoration: none;
+  font-size: 1.2em;
+  padding: 0.5em;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0.5em;
 }
