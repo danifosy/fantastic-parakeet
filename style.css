@@ -36,8 +36,16 @@ h1 {
 }
 .container {
   display: grid;
-  grid-template-columns: 100%;
-  grid-template-rows: repeat(3 1fr);
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 20px;
+  justify-items: center;
+}
 
-  grid-gap: 10px;
+.container-left-item {
+  order: 0;
+}
+
+.container-right-item {
+  order: 1;
 }
