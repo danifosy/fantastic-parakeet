@@ -6,31 +6,31 @@
 
 body {
   margin: 0px;
+  background-color: #a2ad91;
 }
 
 header {
   padding: 20px;
   background-color: #475b63;
-  display: grid;
   color: #ffe3dc;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 2fr 1.5fr;
+  grid-gap: 20px;
 }
 
 img {
-  width: 350px;
-  height: 350px;
+  width: 300px;
+  height: 300px;
   border-radius: 100%;
   border: solid 10px #fff;
+  margin: 2em;
 }
 
-.hello {
+h1 {
   font-family: "Josefin Sans", sans-serif;
-  font-size: 6.5em;
-}
-
-header > p {
-  font-size: 1.5em;
-}
-
-.headertext {
-  color: #ffe3dc;
+  font-size: 5em;
+  text-align: center;
 }
